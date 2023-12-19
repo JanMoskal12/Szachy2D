@@ -52,7 +52,16 @@ END_EVENT_TABLE()
 szachy2dDialog::szachy2dDialog(wxWindow* parent,wxWindowID id)
 {
     //(*Initialize(szachy2dDialog)
+    wxFlexGridSizer* FlexGridSizer1;
+    wxGridSizer* GridSizer1;
+
     Create(parent, id, _("wxWidgets app"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_DIALOG_STYLE, _T("id"));
+    FlexGridSizer1 = new wxFlexGridSizer(8, 1, 0, 0);
+    GridSizer1 = new wxGridSizer(8, 8, 0, 0);
+    FlexGridSizer1->Add(GridSizer1, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
+    SetSizer(FlexGridSizer1);
+    FlexGridSizer1->Fit(this);
+    FlexGridSizer1->SetSizeHints(this);
     //*)
 }
 

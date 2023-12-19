@@ -12,6 +12,7 @@
 
 //(*Headers(szachy2dDialog)
 #include <wx/dialog.h>
+#include <wx/sizer.h>
 //*)
 
 class szachy2dDialog: public wxDialog
