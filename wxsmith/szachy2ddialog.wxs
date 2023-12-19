@@ -10,18 +10,20 @@
 				<object class="wxGridSizer" variable="GridSizer1" member="no">
 					<cols>8</cols>
 					<rows>8</rows>
+					<vgap>-4</vgap>
+					<hgap>-4</hgap>
 					<object class="sizeritem">
 						<object class="wxBitmapButton" name="ID_BITMAPBUTTON1" variable="BitmapButton1" member="yes">
-							<bitmap>C:\Users\szymo\OneDrive\Dokumenty\GitHub\Szachy2D\images\pole_białe.jpg</bitmap>
+							<bitmap>images\pole_biale.jpg</bitmap>
+							<style>0</style>
 							<handler function="OnBitmapButton1Click" entry="EVT_BUTTON" />
 						</object>
-						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-						<border>5</border>
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
 						<option>1</option>
 					</object>
 				</object>
-				<flag>wxALL|wxEXPAND</flag>
-				<border>5</border>
+				<flag>wxEXPAND</flag>
+				<border>1</border>
 				<option>1</option>
 			</object>
 			<object class="sizeritem">
