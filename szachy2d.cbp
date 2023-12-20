@@ -63,10 +63,12 @@
 			<Add library="liboleacc.a" />
 			<Add library="libuxtheme.a" />
 		</Linker>
+		<Unit filename="include/ChessBoard.h" />
 		<Unit filename="include/chesspiece.h" />
 		<Unit filename="resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
+		<Unit filename="src/ChessBoard.cpp" />
 		<Unit filename="src/chesspiece.cpp" />
 		<Unit filename="szachy2dApp.cpp" />
 		<Unit filename="szachy2dApp.h" />
