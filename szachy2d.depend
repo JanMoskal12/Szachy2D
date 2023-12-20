@@ -1620,7 +1620,7 @@
 	"wx/defs.h"
 	"wx/window.h"
 
-1703023166 source:c:\users\szymo\onedrive\dokumenty\github\szachy2d\szachy2dmain.cpp
+1703069207 source:c:\users\szymo\onedrive\dokumenty\github\szachy2d\szachy2dmain.cpp
 	"szachy2dMain.h"
 	<wx/msgdlg.h>
 	<wx/bitmap.h>
