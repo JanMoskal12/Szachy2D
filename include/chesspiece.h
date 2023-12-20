@@ -1,12 +1,15 @@
 #ifndef CHESSPIECE_H
 #define CHESSPIECE_H
 
+#include <iostream>
+
+using std::string;
 
 class ChessPiece {
 public:
     class PieceType;
 
-    ChessPiece(PieceType type, PieceColor color, int row, int col){
+    ChessPiece(int type, int color, int row, int col){
         pieceType = type;
         pieceColor = color;
         currentRow = row;
@@ -15,19 +18,19 @@ public:
 
     virtual ~ChessPiece();
 
-    virtual bool isValidMove(int newRow, int newCol);
-    virtual string getPieceImage();
+    //virtual bool isValidMove(int newRow, int newCol); // do sprawdzania czy taki ruch moze wykonac ta figura
+    //virtual string getPieceImage(); // return sciezke do obrazka (potrzebne do wxBitmap(wxImage(_(figura.getPieceImage()))))
 
-    void setPosition(int row, int col);
+    void setPosition(int row, int col); // zmiana pozycji figury
 
-    PieceType getPieceType() const;
-    PieceColor getPieceColor() const;
+    int getPieceType() const;
+    int getPieceColor() const;
     int getCurrentRow() const;
     int getCurrentCol() const;
 
 protected:
-    PieceType pieceType;
-    PieceColor pieceColor;
+    int pieceType;
+    int pieceColor;
     int currentRow;
     int currentCol;
 };

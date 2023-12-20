@@ -1620,7 +1620,7 @@
 	"wx/defs.h"
 	"wx/window.h"
 
-1703023166 source:c:\users\szymo\onedrive\dokumenty\github\szachy2d\szachy2dmain.cpp
+1703069207 source:c:\users\szymo\onedrive\dokumenty\github\szachy2d\szachy2dmain.cpp
 	"szachy2dMain.h"
 	<wx/msgdlg.h>
 	<wx/bitmap.h>
@@ -3279,7 +3279,7 @@
 	"wx/defs.h"
 	"wx/window.h"
 
-1703068871 source:c:\users\jan\desktop\projekty\szachy2d\szachy2dmain.cpp
+1703077342 source:c:\users\jan\desktop\projekty\szachy2d\szachy2dmain.cpp
 	"szachy2dMain.h"
 	<wx/msgdlg.h>
 	<wx/bitmap.h>
@@ -3316,4 +3316,10 @@
 
 1697140153 c:\cb_dodatki\wxwidgets-3.2.2.1-mono64\include\wx\qt\msgdlg.h
 	"wx/msgdlg.h"
+
+1703079113 source:c:\users\jan\desktop\projekty\szachy2d\src\chesspiece.cpp
+	"chesspiece.h"
+
+1703079134 c:\users\jan\desktop\projekty\szachy2d\include\chesspiece.h
+	<iostream>
 
