@@ -3177,7 +3177,7 @@
 1697140154 c:\cb_dodatki\wxwidgets-3.2.2.1-mono64\include\wx\univ\theme.h
 	"wx/string.h"
 
-1703068871 c:\users\jan\desktop\projekty\szachy2d\szachy2dmain.h
+1703082527 c:\users\jan\desktop\projekty\szachy2d\szachy2dmain.h
 	<wx/bmpbuttn.h>
 	<wx/button.h>
 	<wx/dialog.h>
@@ -3279,7 +3279,7 @@
 	"wx/defs.h"
 	"wx/window.h"
 
-1703077342 source:c:\users\jan\desktop\projekty\szachy2d\szachy2dmain.cpp
+1703081472 source:c:\users\jan\desktop\projekty\szachy2d\szachy2dmain.cpp
 	"szachy2dMain.h"
 	<wx/msgdlg.h>
 	<wx/bitmap.h>

@@ -43,8 +43,8 @@ class szachy2dDialog: public wxDialog
         //*)
 
         DECLARE_EVENT_TABLE()
-        wxBitmapButton *pola[64];
-        wxBitmap rysunki[2];
+        wxBitmapButton *board[64];
+        wxBitmap images[2];
 };
 
 #endif // SZACHY2DMAIN_H

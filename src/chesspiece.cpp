@@ -11,3 +11,7 @@ int ChessPiece::getCurrentRow() const{
     return currentRow;
 }
 
+void ChessPiece::setPosition(int row, int col){
+    currentRow = row;
+    currentCol = col;
+}

@@ -64,10 +64,12 @@
 			<Add library="libuxtheme.a" />
 		</Linker>
 		<Unit filename="include/chesspiece.h" />
+		<Unit filename="include/pawn.h" />
 		<Unit filename="resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
 		<Unit filename="src/chesspiece.cpp" />
+		<Unit filename="src/pawn.cpp" />
 		<Unit filename="szachy2dApp.cpp" />
 		<Unit filename="szachy2dApp.h" />
 		<Unit filename="szachy2dMain.cpp" />
