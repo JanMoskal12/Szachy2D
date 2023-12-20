@@ -85,7 +85,7 @@ szachy2dDialog::szachy2dDialog(wxWindow* parent,wxWindowID id)
         }else{
             pola[8*i+j] = new wxBitmapButton(this, wxNewId(), wxBitmap(wxImage(_T("images/pole_czarne.jpg"))), wxDefaultPosition, wxDefaultSize, wxBU_AUTODRAW, wxDefaultValidator);
             pola[8*i+j]-> SetBackgroundColour(wxColour(0,0,0));
-            pola[8*i+j]->SetBackgroundColour(wxColour(0,0,0));
+            pola[8*i+j]->SetBackgroundColour(wxColour(0,0,0)) ;
         }
 
         GridSizer1->Add(pola[8*i+j], 1, wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
