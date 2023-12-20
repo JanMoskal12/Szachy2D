@@ -62,7 +62,7 @@ szachy2dDialog::szachy2dDialog(wxWindow* parent,wxWindowID id)
     Create(parent, wxID_ANY, _("wxWidgets app"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_DIALOG_STYLE, _T("wxID_ANY"));
     FlexGridSizer1 = new wxFlexGridSizer(3, 1, 0, 0);
     GridSizer1 = new wxGridSizer(8, 8, -4, -4);
-    BitmapButton1 = new wxBitmapButton(this, ID_BITMAPBUTTON1, wxBitmap(wxImage(_T("C:\\Users\\szymo\\OneDrive\\Dokumenty\\GitHub\\Szachy2D\\images\\pole_biale.jpg"))), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("ID_BITMAPBUTTON1"));
+    BitmapButton1 = new wxBitmapButton(this, ID_BITMAPBUTTON1, wxBitmap(wxImage(_T("images\\pole_biale.jpg"))), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("ID_BITMAPBUTTON1"));
     GridSizer1->Add(BitmapButton1, 1, wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 0);
     FlexGridSizer1->Add(GridSizer1, 1, wxEXPAND, 1);
     Button1 = new wxButton(this, ID_BUTTON1, _("ok"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("ID_BUTTON1"));
